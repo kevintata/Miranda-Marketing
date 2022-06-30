@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    display: grid;
+    background-image: url("images/triangle-mosaic.png");
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav > a {
+    color: #33032F;
+    border-radius: 5%;
+    background-color: hsla(182, 56%, 56%, 0.075);
+}
+nav > a:hover {
+    color: #50C9CE;
+    
+}
+
+a {
+    color: #531253;
+    margin: auto;
+}
+
+h1 {
+    background-color: hsla(182, 56%, 56%, 0.233);
+    text-align: center;
+    font-family: 'Playfair Display', serif; ;
+    font-size: 6em;
+    font-weight: 900;
+}
+
+p {
+    margin: auto;
+    max-width: 50em;
+    font-size: 1.5em; 
+    text-align: center;
+}
+
+.logo {
+display: flex;
+position: absolute;
+justify-content: right;
+align-items: right;
+}
+
+picture {
+    margin: auto;
+    padding-bottom: 20px;
+    
+}
+footer {
+
+    margin-top: 5em;
+    padding-bottom: 5em;
+    background-color: hsla(182, 56%, 56%, 0.075);
+}
